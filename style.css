@@ -4,6 +4,9 @@
 body{
     background-color: #57804F;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
 }
 .main-topic{
     display: flex;
@@ -57,7 +60,6 @@ display: inline-block;
     border-radius: 10px;
     padding: auto;
     margin: 15px;
-    border:solid 10px burlywood;
 }
 .hr {
     border: 1px solid rgb(112, 89, 58);
@@ -82,6 +84,7 @@ display: inline-block;
 .section1-img1{
     height: 100%;
     width: 100%;
+    border-radius: 15px;
 }
 .section1-img2{
     height: 250px;
@@ -91,11 +94,12 @@ display: inline-block;
 .section1-img3{
     height: 100%;
     width: 100%;
+    border-radius: 15px;
 }
 .mainsec2{
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .subsec2{
     height: 250px;
@@ -104,11 +108,13 @@ display: inline-block;
 .subsec2-img{
     height: 100%;
     width: 100%;
+    border-radius: 15px;
 }
 .subsec2-img2{
     height: 100%;
     width: 100%;
-    margin-top: 11px;
+    margin-top: 15px;
+    border-radius: 15px;
 }
 .section2{
     margin-left: 12px;
@@ -141,6 +147,8 @@ display: inline-block;
 .subsec3-img{
     height: 100%;
     width: 100%;  
+    border-radius: 15px;
+
 }
 .subsec3-2{
     height: 250px;
@@ -150,6 +158,7 @@ display: inline-block;
 .subsec3-img2{
     height: 100%;
     width: 100%;
+    border-radius: 15px;
 }
 .subsec3-para{
     font-size: 22px;
@@ -178,6 +187,8 @@ h1, h2, h3 {
 @media screen and (max-width: 635px) {
     .image-content {
       flex-direction: column;
+    
+
     }
   }
 .second-image {
@@ -191,6 +202,8 @@ h1, h2, h3 {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 15px;
+    
   }
 
 .location-card img {
@@ -321,6 +334,7 @@ h1, h2, h3 {
 .section .content .text a:hover {
     color: #555;
 }
+
 .leopard-poaching {
     height: 330px;
     width: 580px;
@@ -390,4 +404,14 @@ h1, h2, h3 {
         width: 600px;
         height: 400px;
     }
+    .endemic {
+        flex-direction: column;
+    }
+    .main-topic {
+        flex-direction: column;
+    }
+    .main-heading {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
 }

@@ -3,7 +3,7 @@ body {
   background-color:  #9F784A;
 }
 
-header {
+.yala-heading {
   color: white;
   background-color: rgb(0, 0, 0);
   padding: 20px;
@@ -16,30 +16,23 @@ header h1 {
   margin: 0;
 }
 
-
-header nav {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-
-header nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-header nav ul li {
-  display: inline-block;
-  margin: 10px;
-}
-
-header nav ul li a {
+.navigation{
+  background-color: #333;
   color: white;
-  text-decoration: none;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 10px;
-  border: 2px solid white;
+} 
+.relinks{
+  list-style-type: none;
+}
+.relinks li{
+display: inline-block;
+}
+.relinks li a{
+  padding: 10px;
+  color: #fff;
 }
 
 .yala {
@@ -47,7 +40,7 @@ header nav ul li a {
   width: 600px;
 }
 
-main {
+.main {
   width: 80%;
   margin: 20px auto;
   border: 2px solid navy;
@@ -128,31 +121,12 @@ section ul li {
   border: 1px solid navy;
   padding: 10px;
 }
-footer {
-  color: white;
-  background-color: rgb(0, 0, 0);
-  padding: 20px;
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(114, 129, 142);
 }
 
-footer p {
-  font-size: 18px;
-  text-align: center;
-}
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-footer ul li {
-  display: inline-block;
-  margin: 10px;
-}
-footer ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px;
-  border: 2px solid white;
+.about-us {
+  width: 33%;
 }
